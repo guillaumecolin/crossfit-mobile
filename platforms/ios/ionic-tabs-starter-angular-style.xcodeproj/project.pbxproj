@@ -45,6 +45,8 @@
 		0BECD6F98B4D4911B7CA2C38 /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 27596026798243B2A4A4C087 /* CDVDevice.m */; };
 		1066746AF2264908B55170F2 /* CDVSplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F66BBCF3114119B963AC66 /* CDVSplashScreen.m */; };
 		0DC332A794BA410EB915F129 /* CDVViewController+SplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C14005C9654417AC7E044A /* CDVViewController+SplashScreen.m */; };
+		343D30B396A84313970C1BE4 /* CDVCompass.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD14EAEB2264DF68A2330E5 /* CDVCompass.m */; };
+		EA70E5C1DD8A41C192B86BBC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD4BB36AD4F24044ABC5A647 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -122,6 +124,9 @@
 		B1C14005C9654417AC7E044A /* CDVViewController+SplashScreen.m */ = {isa = PBXFileReference; name = "CDVViewController+SplashScreen.m"; path = "cordova-plugin-splashscreen/CDVViewController+SplashScreen.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
 		46F38FEC1B314402B4EF7351 /* CDVSplashScreen.h */ = {isa = PBXFileReference; name = "CDVSplashScreen.h"; path = "cordova-plugin-splashscreen/CDVSplashScreen.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 		795840548BE04D2A884DF573 /* CDVViewController+SplashScreen.h */ = {isa = PBXFileReference; name = "CDVViewController+SplashScreen.h"; path = "cordova-plugin-splashscreen/CDVViewController+SplashScreen.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		ADD14EAEB2264DF68A2330E5 /* CDVCompass.m */ = {isa = PBXFileReference; name = "CDVCompass.m"; path = "cordova-plugin-device-orientation/CDVCompass.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		53EBDCE6C82542B8A9BAFEC7 /* CDVCompass.h */ = {isa = PBXFileReference; name = "CDVCompass.h"; path = "cordova-plugin-device-orientation/CDVCompass.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		FD4BB36AD4F24044ABC5A647 /* CoreLocation.framework */ = {isa = PBXFileReference; name = "CoreLocation.framework"; path = "System/Library/Frameworks/CoreLocation.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +138,7 @@
 				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
 				305D5FD1115AB8F900A74A75 /* MobileCoreServices.framework in Frameworks */,
+				EA70E5C1DD8A41C192B86BBC /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,6 +211,7 @@
 				5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
 				305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */,
+				FD4BB36AD4F24044ABC5A647 /* CoreLocation.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -232,6 +239,8 @@
 				B1C14005C9654417AC7E044A /* CDVViewController+SplashScreen.m */,
 				46F38FEC1B314402B4EF7351 /* CDVSplashScreen.h */,
 				795840548BE04D2A884DF573 /* CDVViewController+SplashScreen.h */,
+				ADD14EAEB2264DF68A2330E5 /* CDVCompass.m */,
+				53EBDCE6C82542B8A9BAFEC7 /* CDVCompass.h */,
 			);
 			name = Plugins;
 			path = "ionic-tabs-starter-angular-style/Plugins";
@@ -422,6 +431,7 @@
 				0BECD6F98B4D4911B7CA2C38 /* CDVDevice.m in Sources */,
 				1066746AF2264908B55170F2 /* CDVSplashScreen.m in Sources */,
 				0DC332A794BA410EB915F129 /* CDVViewController+SplashScreen.m in Sources */,
+				343D30B396A84313970C1BE4 /* CDVCompass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

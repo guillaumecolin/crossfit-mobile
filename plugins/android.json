@@ -21,6 +21,9 @@
         },
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.ionicframework.ionictabsstarterangularstyle429395"
+        },
+        "cordova-plugin-device-orientation": {
+            "PACKAGE_NAME": "com.ionicframework.ionictabsstarterangularstyle429395"
         }
     },
     "dependent_plugins": {}
