@@ -1,10 +1,10 @@
 (function() {
     'use strict';
-    angular.module('crossfit-nancy.chat')
-        .controller('ChatsCtrl', ChatsCtrl);
+    angular.module('crossfit-nancy.wod')
+        .controller('WodsCtrl', WodsCtrl);
 
-    ChatsCtrl.$inject = ['$scope', 'Chats'];
-    function ChatsCtrl($scope, Chats) {
+    WodsCtrl.$inject = ['$scope', 'Wods'];
+    function WodsCtrl($scope, Wods) {
         // With the new view caching in Ionic, Controllers are only called
         // when they are recreated or on app start, instead of every page change.
         // To listen for when this page is active (for example, to refresh data),
@@ -13,9 +13,9 @@
         //$scope.$on('$ionicView.enter', function(e) {
         //});
 
-        $scope.chats = Chats.all();
-        $scope.remove = function(chat) {
-            Chats.remove(chat);
+        $scope.wods = Wods.all();
+        $scope.remove = function(wod) {
+            Wods.remove(wod);
         };
     }
 })();

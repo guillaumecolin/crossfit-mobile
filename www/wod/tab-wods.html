@@ -1,0 +1,16 @@
+<ion-view view-title="Mes WODs">
+  <ion-content>
+    <ion-list>
+      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="wod in wods" type="item-text-wrap" href="#/tab/wods/{{wod.id}}">
+        <img ng-src="{{wod.face}}">
+        <h2>{{wod.name}}</h2>
+        <p>{{wod.lastText}}</p>
+        <i class="icon ion-chevron-right icon-accessory"></i>
+
+        <ion-option-button class="button-assertive" ng-click="remove(wod)">
+          Delete
+        </ion-option-button>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

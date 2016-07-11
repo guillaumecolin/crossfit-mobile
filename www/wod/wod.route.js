@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('crossfit-nancy.chat')
+        .module('crossfit-nancy.wod')
         .run(appRun);
 
     appRun.$inject = ['routerHelper'];
@@ -14,25 +14,25 @@
     function getStates() {
         return [
         {
-            state: 'tab.chats',
+            state: 'tab.wods',
             config: {
-                url: '/chats',
+                url: '/wods',
                 views: {
-                    'tab-chats': {
-                        templateUrl: 'chat/tab-chats.html',
-                        controller: 'ChatsCtrl'
+                    'tab-wods': {
+                        templateUrl: 'wod/tab-wods.html',
+                        controller: 'WodsCtrl'
                     }
                 }
             }
         },
         {
-            state: 'tab.chat-detail',
+            state: 'tab.wod-detail',
             config: {
-                url: '/chats/:chatId',
+                url: '/wods/:wodId',
                 views: {
-                    'tab-chats': {
-                        templateUrl: 'chat/chat-detail.html',
-                        controller: 'ChatDetailCtrl'
+                    'tab-wods': {
+                        templateUrl: 'wod/wod-detail.html',
+                        controller: 'WodDetailCtrl'
                     }
                 }
             }

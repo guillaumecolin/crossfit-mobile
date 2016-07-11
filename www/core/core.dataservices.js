@@ -3,13 +3,13 @@
     'use strict';
 
     angular.module('crossfit-nancy.core')
-        .factory('Chats', Chats);
+        .factory('Wods', Wods);
 
-    function Chats() {
+    function Wods() {
         // Might use a resource here that returns a JSON array
 
         // Some fake testing data
-        var chats = [{
+        var wods = [{
             id: 0,
             name: 'Ben Sparrow',
             lastText: 'You on your way?',
@@ -37,27 +37,27 @@
         }];
 
         var service = {
-            all: allChats,
-            remove: removeChat,
-            get: getChat
+            all: allWods,
+            remove: removeWod,
+            get: getWod
         };
 
         return service;
 
         //////////////////
 
-        function allChats() {
-            return chats;
+        function allWods() {
+            return wods;
         }
 
-        function removeChat(chat) {
-            chats.splice(chats.indexOf(chat), 1);
+        function removeWod(wod) {
+            wods.splice(wods.indexOf(wod), 1);
         }
 
-        function getChat(chatId) {
-            for (var i = 0; i < chats.length; i++) {
-                if (chats[i].id === parseInt(chatId)) {
-                    return chats[i];
+        function getWod(wodId) {
+            for (var i = 0; i < wods.length; i++) {
+                if (wods[i].id === parseInt(wodId)) {
+                    return wods[i];
                 }
             }
             return null;

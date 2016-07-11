@@ -17,7 +17,7 @@
 			'crossfit-nancy.layout',
 			/* Feature areas */
 			'crossfit-nancy.account',
-			'crossfit-nancy.chat',
+			'crossfit-nancy.wod',
 			'crossfit-nancy.planning',
 			'crossfit-nancy.login'
 		]);
