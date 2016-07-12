@@ -11,3 +11,49 @@ body{
 .cfn-login{
 	background-color: #57718A;
 }
+
+.tabs-background-cfn .tabs, .tabs-background-cfn > .tabs {
+	background-color: #57718A;
+    border-color: #57718A;
+    background-image: linear-gradient(0deg, #57718A, #57718A 50%, transparent 50%);
+}
+.tabs-cfn > .tabs .tab-item .badge, .tabs.tabs-cfn .tab-item .badge {
+    background-color: #444;
+    color: #FFFFFF; 
+}
+ion-tabs.tabs-cfn .tab-item  {
+    color: #ccc; 
+}
+.bar.bar-cfn {
+    border-color: #57718A;
+    background-color: #57718A;
+    background-image: linear-gradient(0deg, #57718A, #57718A 50%, transparent 50%);
+    color: #FFFFFF; 
+}
+.bar.bar-cfn .title {
+	color: #FFFFFF; 
+}
+.bar-cfn .button {
+  border-color: #57718A;
+  background-color: #57718A;
+  color: #FFFFFF; 
+}
+.bar-cfn .button:hover {
+	color: #FFFFFF;
+    text-decoration: none; 
+}
+.bar-cfn .button.active, .bar-cfn .button.activated {
+    border-color: #57718A;
+    background-color: #57718A;
+}
+.bar-cfn .button.button-clear {
+	border-color: transparent;
+	background: none;
+	box-shadow: none;
+	color: #FFFFFF;
+	font-size: 17px; 
+}
+.bar-cfn .button.button-icon {
+	border-color: transparent;
+	background: none; 
+}
