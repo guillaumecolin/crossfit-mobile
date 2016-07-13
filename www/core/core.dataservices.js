@@ -11,29 +11,35 @@
         // Some fake testing data
         var wods = [{
             id: 0,
-            name: 'Ben Sparrow',
-            lastText: 'You on your way?',
-            face: 'https://pbs.twimg.com/profile_images/514549811765211136/9SgAuHeY.png'
+            date: 'Mercredi 13 juillet 2016',
+            horaire: '18:00-19h00',
+            libelle: 'Wod cardio',
+            coatch: 'https://static.wixstatic.com/media/ff49eb_62d3e7244d47449f8cb00c4522995af6.jpg/v1/fill/w_239,h_321,al_c,q_80/ff49eb_62d3e7244d47449f8cb00c4522995af6.jpg',
+            programme: '<p>20 Shoulder press<\/p><p>20 Double under<\/p><p>20 Pull up<\/p>'
         }, {
             id: 1,
-            name: 'Max Lynx',
-            lastText: 'Hey, it\'s me',
-            face: 'https://avatars3.githubusercontent.com/u/11214?v=3&s=460'
+            date: 'Jeudi 14 juillet 2016',
+            horaire: '10:00-11:00',
+            libelle: 'Wod à la pép\'',
+            coatch: 'https://static.wixstatic.com/media/ff49eb_62d3e7244d47449f8cb00c4522995af6.jpg/v1/fill/w_239,h_321,al_c,q_80/ff49eb_62d3e7244d47449f8cb00c4522995af6.jpg'
         },{
             id: 2,
-            name: 'Adam Bradleyson',
-            lastText: 'I should buy a boat',
-            face: 'https://pbs.twimg.com/profile_images/479090794058379264/84TKj_qa.jpeg'
+            date: 'Mercredi 20 juillet 2016',
+            horaire: '18:00-19h00',
+            libelle: 'Wod cardio',
+            coatch: 'https://static.wixstatic.com/media/ff49eb_62d3e7244d47449f8cb00c4522995af6.jpg/v1/fill/w_239,h_321,al_c,q_80/ff49eb_62d3e7244d47449f8cb00c4522995af6.jpg'
         }, {
             id: 3,
-            name: 'Perry Governor',
-            lastText: 'Look at my mukluks!',
-            face: 'https://pbs.twimg.com/profile_images/598205061232103424/3j5HUXMY.png'
+            date: 'Vendredi 22 juillet 2016',
+            horaire: '18:00-19h00',
+            libelle: 'Wod haltéro',
+            coatch: 'https://static.wixstatic.com/media/ff49eb_62d3e7244d47449f8cb00c4522995af6.jpg/v1/fill/w_239,h_321,al_c,q_80/ff49eb_62d3e7244d47449f8cb00c4522995af6.jpg'
         }, {
             id: 4,
-            name: 'Mike Harrington',
-            lastText: 'This is wicked good ice cream.',
-            face: 'https://pbs.twimg.com/profile_images/578237281384841216/R3ae1n61.png'
+            date: 'Samedi 23 juillet 2016',
+            horaire: '11:00-12h00',
+            libelle: 'Wod EMOM',
+            coatch: 'https://static.wixstatic.com/media/ff49eb_62d3e7244d47449f8cb00c4522995af6.jpg/v1/fill/w_239,h_321,al_c,q_80/ff49eb_62d3e7244d47449f8cb00c4522995af6.jpg'
         }];
 
         var service = {

@@ -3,6 +3,7 @@
     'use strict';
 
     angular.module('crossfit-nancy.core', [
-        'blocks.router'
+        'blocks.router',
+        'crossfit-nancy.auth'
     ]);
 })();
